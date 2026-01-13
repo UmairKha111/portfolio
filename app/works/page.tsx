@@ -3,9 +3,9 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import MobileMenu from "@/components/MobileMenu";
-import Hero from "@/components/Hero";
+import Works from "@/components/Works";
 
-export default function Home() {
+export default function WorksPage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -13,8 +13,7 @@ export default function Home() {
       <Navbar onMenu={() => setMenuOpen(true)} />
       <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
 
-      {/* ONLY HERO ON HOME */}
-      <Hero />
+      <Works />
     </>
   );
 }
