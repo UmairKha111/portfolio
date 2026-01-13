@@ -1,6 +1,19 @@
 @import "tailwindcss";
 
 /* 🌙 DARK THEME (DEFAULT) */
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* 🌙 DARK THEME (DEFAULT) */
 :root {
   --bg: #050607;
   --card: rgba(255, 255, 255, 0.06);
