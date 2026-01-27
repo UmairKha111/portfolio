@@ -17,5 +17,5 @@ export const projects = [
     image: "/images-pro/indole-cleaners.jpg",
     link: "https://indole-cleaners-frontend.vercel.app/",
   },
-  
+ 
 ];
